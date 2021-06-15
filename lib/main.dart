@@ -7,8 +7,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My TODO List',
-      home: TodoListScreen(),
-    );
+        title: 'Todo List App',
+        debugShowCheckedModeBanner: false,
+        home: TodoListScreen());
   }
 }
